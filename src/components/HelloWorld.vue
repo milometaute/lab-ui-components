@@ -1,6 +1,14 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <div class="row">
+      <div class="col-4">
+        <p>Hello bootstrap grid</p>
+      </div>
+      <div class="col-8">
+        <p>	Hello Bootstrap grid 2</p>
+      </div>
+    </div>
     <p>
       This is the UI Components lab, with
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
