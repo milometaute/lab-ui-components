@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" width="160px" src="http://milometaute.com/wp-content/uploads/2018/06/logo-milometaute-02.png">
     <HelloWorld msg="Welcome to Lab UI Components"/>
   </div>
 </template>
