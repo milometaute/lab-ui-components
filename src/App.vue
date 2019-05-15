@@ -13,7 +13,7 @@
 
       <div class="d-flex align-items-center lc-header">
         <div class="text-left mx-3">
-          <h1 class="w-100 py-0 my-0">Lab Components</h1>
+          <h1 class="w-100 py-0 my-0">Lab UI Components</h1>
           <span class="w-100">A personal project with UI experiments and design lab</span>
         </div>
       </div>
@@ -54,13 +54,13 @@
 
 .lc-header {
   height: 70%;
+}
 
-  h1 {
+.lc-header h1 {
   font-size: 4em;
   font-weight: 800;
   color: white;
 }
-
 
 .lc-header span {
   font-size: 1.2em;
