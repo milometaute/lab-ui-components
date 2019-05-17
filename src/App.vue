@@ -5,22 +5,37 @@
       <div class="d-flex align-items-center py-3 lc-navbar">
         <img alt="Vue logo" class="ml-3 mr-auto" height="60px" src="http://milometaute.com/wp-content/uploads/2018/06/logo-milometaute-02.png">
         <div id="nav">
-          <router-link to="/">Home</router-link> |
-          <router-link to="/about">About me</router-link> |
-          <router-link to="/about">Lab UI</router-link>
+          <router-link to="/">About</router-link> |
+          <router-link to="/about">Work</router-link> |
+          <router-link to="/about">Articles</router-link>
         </div>
       </div>
 
       <div class="d-flex align-items-center lc-header">
         <div class="text-left mx-3">
-          <h1 class="w-100 py-0 my-0">Lab UI Components</h1>
-          <span class="w-100">A personal project with UI experiments and design lab</span>
+          <h1 class="w-100 py-0 my-0 display-2"> <span class="d-block">Camilo Metaute</span>  <span class="d-block">UI Designer</span> </h1>
+          <span class="w-100">This is Lab Components, my training space with Code - Design - Ideas</span>
         </div>
       </div>
 
-      <div class="d-flex lc-bottom-menu w-75">
-
+      <div class="d-flex flex-wrap flex-md-nowrap w-75 lc-bottom-menu">
+        <div class="flex-1 text-left p-3 mr-auto">
+          <p>01</p>
+          <h3>I write Code</h3>
+          <span>The space where</span>
+        </div>
+        <div class="flex-1 text-left p-3 mr-auto">
+          <p>02</p>
+          <h3>I create Design</h3>
+          <span>The space where</span>
+        </div>
+        <div class="flex-1 text-left p-3 mr-auto">
+          <p>03</p>
+          <h3>I make Interactions</h3>
+          <span>The space where</span>
+        </div>
       </div>
+      
     </div>
     
     <router-view/>
@@ -29,7 +44,7 @@
 
 <style>
 #app {
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family:  'Work Sans',sans-serif, 'Playfair Display', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -47,6 +62,10 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+h1 {
+  font-family: 'Playfair Display';
+};
 
 .lc-navbar {
   height: 10%;

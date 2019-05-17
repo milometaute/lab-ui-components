@@ -3,11 +3,39 @@
     <h1>{{ msg }}</h1>
     <div class="container">
       <div class="row">
-        <div class="col-4">
-          <p>Hello bootstrap grid</p>
+        <div class="col-9">
+          <p>I write code</p>
+          
         </div>
-        <div class="col-8">
-          <p>	Hello Bootstrap grid 2</p>
+        <div class="col-3">
+          <a class="d-block" href="">Markup Challenge</a>
+          <a class="d-block" href="">UI components with code</a>
+          <a class="d-block" href="">Microinteractions with code</a>
+          <a class="d-block" href="">Transitions and effects with code</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-3">
+          <a class="d-block" href="">Markup Challenge</a>
+          <a class="d-block" href="">UI components with code</a>
+          <a class="d-block" href="">Microinteractions with code</a>
+          <a class="d-block" href="">Transitions and effects with code</a>
+        </div>
+        <div class="col-9">
+          <p>I create Design</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-9">
+          <p>I make Interactions</p>
+        </div>
+        <div class="col-3">
+          <a class="d-block" href="">Markup Challenge</a>
+          <a class="d-block" href="">UI components with code</a>
+          <a class="d-block" href="">Microinteractions with code</a>
+          <a class="d-block" href="">Transitions and effects with code</a>
         </div>
       </div>
     </div>
