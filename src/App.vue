@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <div class="main-content" style="height: 100vh;background-color: #686de0;">
+    <div class="main-content" style="height: 100vh;background-color: #13E4A0;">
       
-      <div class="d-flex align-items-center py-3 lc-navbar">
+      <div class="d-flex align-items-center py-3 px-5 lc-navbar">
         <img alt="Vue logo" class="ml-3 mr-auto" height="60px" src="http://milometaute.com/wp-content/uploads/2018/06/logo-milometaute-02.png">
         <div id="nav">
           <router-link to="/">About</router-link> |
@@ -12,27 +12,36 @@
       </div>
 
       <div class="d-flex align-items-center lc-header">
-        <div class="text-left mx-3">
+        <div class="text-left mx-3 px-5">
           <h1 class="w-100 py-0 my-0 display-2"> <span class="d-block">Camilo Metaute</span>  <span class="d-block">UI Designer</span> </h1>
-          <span class="w-100">This is Lab Components, my training space with Code - Design - Ideas</span>
+          <span class="w-100">This is Lab Components, my training space with Code - Design and Ideas</span>
         </div>
       </div>
 
-      <div class="d-flex flex-wrap flex-md-nowrap w-75 lc-bottom-menu">
-        <div class="flex-1 text-left p-3 mr-auto">
-          <p>01</p>
+      <div class="d-flex flex-wrap flex-md-nowrap justify-content-center w-75 lc-bottom-menu px-5">
+        <div class="flex-1 desk-content text-left p-3 mr-auto align-self-center">
+          <p class="h3">
+            <strong> 01 </strong>
+          </p>
           <h3>I write Code</h3>
-          <span>The space where</span>
+          <span>The space where I can do real my designs</span>
         </div>
-        <div class="flex-1 text-left p-3 mr-auto">
-          <p>02</p>
+        <div class="flex-1 desk-content text-left p-3 mr-auto align-self-center">
+          <p class="h3">
+            <strong> 02 </strong>
+          </p>
           <h3>I create Design</h3>
-          <span>The space where</span>
+          <span>I begin in the paper and make this real with digital tools</span>
         </div>
-        <div class="flex-1 text-left p-3 mr-auto">
-          <p>03</p>
+        <div class="flex-1 desk-content text-left p-3 mr-auto align-self-center">
+          <p class="h3">
+            <strong> 03 </strong>
+          </p>
           <h3>I make Interactions</h3>
-          <span>The space where</span>
+          <span>My creations getting live with animations</span>
+        </div>
+        <div class="flex-1 mob-content d-lg-none d-block align-self-start w-100">
+          <button class="w-100 btn btn-primary">Ver mi trabajo</button>
         </div>
       </div>
       
@@ -65,14 +74,15 @@
 
 h1 {
   font-family: 'Playfair Display';
+  font-size: 5em !important;
 };
 
 .lc-navbar {
-  height: 10%;
+  height: 8%;
 }
 
 .lc-header {
-  height: 70%;
+  height: 67%;
 }
 
 .lc-header h1 {
@@ -87,8 +97,21 @@ h1 {
 }
 
 .lc-bottom-menu{
-  height: 20%;
   background-color: white;
+  height: 25%;
+  transition: all .3s ease-in-out;
 }
 
+@media (max-width: 992px) {
+  .lc-header {
+    height: 85%;
+  }
+  .lc-bottom-menu {
+    height: 8%;
+  }
+
+  .lc-bottom-menu .desk-content {
+      display: none;
+    }
+}
 </style>
