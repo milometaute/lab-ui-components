@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <div class="main-content" style="height: 100vh;background-color: #13E4A0;">
-      
+    <div class="main-content container-fluid" style="height: 100vh;background-color: #13E4A0;">
+    
       <div class="d-flex align-items-center py-3 px-5 lc-navbar">
         <img alt="Vue logo" class="ml-3 mr-auto" height="60px" src="http://milometaute.com/wp-content/uploads/2018/06/logo-milometaute-02.png">
         <div id="nav">
@@ -44,16 +44,16 @@
           <button class="w-100 btn btn-primary">Ver mi trabajo</button>
         </div>
       </div>
-      
-    </div>
     
-    <router-view/>
+      <router-view/>
+    </div>
   </div>
 </template>
 
 <style>
+
 #app {
-  font-family:  'Work Sans',sans-serif, 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -72,11 +72,6 @@
   color: #42b983;
 }
 
-h1 {
-  font-family: 'Playfair Display';
-  font-size: 5em !important;
-};
-
 .lc-navbar {
   height: 8%;
 }
@@ -86,7 +81,6 @@ h1 {
 }
 
 .lc-header h1 {
-  font-size: 4em;
   font-weight: 800;
   color: white;
 }
@@ -99,13 +93,29 @@ h1 {
 .lc-bottom-menu{
   background-color: white;
   height: 25%;
-  transition: all .3s ease-in-out;
 }
+
+/* Font Size scale
+  based on: https://marvelapp.com/styleguide/design/typography */
+.font-size-xxs    {font-size: 10px;}
+.font-size-xs     {font-size: 12px;}
+.font-size-sm     {font-size: 14px;}
+.font-size-md     {font-size: 16px;}
+.font-size-lg     {font-size: 18px;}
+.font-size-xl     {font-size: 20px;}
+.font-size-xxl    {font-size: 28px;}
+.font-size-xxxl   {font-size: 38px;}
+.font-size-xxxxl  {font-size: 46px;}
 
 @media (max-width: 992px) {
   .lc-header {
     height: 85%;
   }
+
+  .lc-header span {
+    font-size: .7em;
+  }
+
   .lc-bottom-menu {
     height: 8%;
   }
