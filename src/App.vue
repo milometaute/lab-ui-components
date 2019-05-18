@@ -13,7 +13,7 @@
 
       <div class="d-flex align-items-center lc-header">
         <div class="text-left mx-3 px-5">
-          <h1 class="w-100 py-0 my-0 display-2"> <span class="d-block">Camilo Metaute</span>  <span class="d-block">UI Designer</span> </h1>
+          <h1 class="w-100 py-0 my-0 display-2"> <span class="d-block name">Camilo Metaute</span>  <span class="d-block  job">UI Designer</span> </h1>
           <span class="w-100">This is Lab Components, my training space with Code - Design and Ideas</span>
         </div>
       </div>
@@ -23,22 +23,22 @@
           <p class="h3">
             <strong> 01 </strong>
           </p>
-          <h3>I write Code</h3>
-          <span>The space where I can do real my designs</span>
+          <a class="lc-btn">I write Code</a>
+          <p>The space where I can do real my designs</p>
         </div>
         <div class="flex-1 desk-content text-left p-3 mr-auto align-self-center">
           <p class="h3">
             <strong> 02 </strong>
           </p>
-          <h3>I create Design</h3>
-          <span>I begin in the paper and make this real with digital tools</span>
+          <a class="lc-btn">I create Design</a>
+          <p>I begin in the paper and make this real with digital tools</p>
         </div>
         <div class="flex-1 desk-content text-left p-3 mr-auto align-self-center">
           <p class="h3">
             <strong> 03 </strong>
           </p>
-          <h3>I make Interactions</h3>
-          <span>My creations getting live with animations</span>
+          <a class="lc-btn">I make Interactions</a>
+          <p>My creations getting live with animations</p>
         </div>
         <div class="flex-1 mob-content d-lg-none d-block align-self-start w-100">
           <button class="w-100 btn btn-primary">Ver mi trabajo</button>
@@ -53,7 +53,7 @@
 <style>
 
 #app {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'fieldwork-hum', sans-serif, 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -80,6 +80,16 @@
   height: 67%;
 }
 
+.lc-header .name {
+  color: white;
+}
+
+.lc-header .job {
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+  font-size: 1.2em;
+}
+
 .lc-header h1 {
   font-weight: 800;
   color: white;
@@ -93,6 +103,30 @@
 .lc-bottom-menu{
   background-color: white;
   height: 25%;
+}
+
+.lc-btn {
+  cursor: pointer;
+  font-size: 1.8em;
+  font-weight: 600;
+  position: relative;
+  transform: perspective(1px) translateZ(0);
+}
+
+.lc-btn:before {
+  background: #42b983;
+  bottom: -3px;
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  right: 100%;
+  transition: .3s right ease-out;
+  z-index: -1;
+}
+
+.lc-btn:hover:before, .lc-btn:focus:before, .lc-btn:active:before {
+  right: 0;
 }
 
 /* Font Size scale
