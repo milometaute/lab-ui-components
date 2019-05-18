@@ -30,14 +30,14 @@
           <p class="h3">
             <strong> 02 </strong>
           </p>
-          <a class="lc-btn">I create Design</a>
+          <a class="lc-btn">I Design UI</a>
           <p>I begin in the paper and make this real with digital tools</p>
         </div>
         <div class="flex-1 desk-content text-left p-3 mr-auto align-self-center">
           <p class="h3">
             <strong> 03 </strong>
           </p>
-          <a class="lc-btn">I make Interactions</a>
+          <a class="lc-btn">I create Interactions</a>
           <p>My creations getting live with animations</p>
         </div>
         <div class="flex-1 mob-content d-lg-none d-block align-self-start w-100">
