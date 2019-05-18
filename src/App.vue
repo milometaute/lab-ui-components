@@ -5,8 +5,8 @@
       <div class="d-flex align-items-center py-3 px-5 lc-navbar">
         <img alt="Vue logo" class="ml-3 mr-auto" height="60px" src="http://milometaute.com/wp-content/uploads/2018/06/logo-milometaute-02.png">
         <div id="nav">
-          <router-link to="/">About</router-link> |
-          <router-link to="/about">Work</router-link> |
+          <router-link to="/about">About</router-link> |
+          <router-link to="/">Work</router-link> |
           <router-link to="/about">Articles</router-link>
         </div>
       </div>
@@ -106,10 +106,12 @@
 }
 
 .lc-btn {
+  color: #42b983 !important;
   cursor: pointer;
   font-size: 1.8em;
   font-weight: 600;
   position: relative;
+  text-decoration: none !important;
   transform: perspective(1px) translateZ(0);
 }
 
