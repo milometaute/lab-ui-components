@@ -11,7 +11,7 @@
         <h2 class="align-self-center">I write code</h2>
       </div>
       <div class="col-12 col-md-6 text-left">
-        <a class="lc-btn mt-2 mb-3" href="">
+        <a class="lc-btn mt-2 mb-3" href="/#/code">
           Markup Challenge (HTML5 & CSS3)
           <span class="d-block font-size-sm text-secondary mb-2">This is a personal project where I improve my skills</span>
         </a>
@@ -94,7 +94,7 @@ export default {
   a {
     color: #42b983;
   }
-  
+
   .jobs-container {
     height: 100vh;
     background-color:#efefef;
