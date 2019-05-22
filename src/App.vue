@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="main-content container-fluid" style="height: 100vh;background-color: #13E4A0;">
-    
+
       <div class="d-flex align-items-center py-3 px-5 lc-navbar">
         <img alt="Vue logo" class="ml-3 mr-auto" height="60px" src="http://milometaute.com/wp-content/uploads/2018/06/logo-milometaute-02.png">
         <div id="nav">
@@ -44,7 +44,7 @@
           <button class="w-100 btn btn-primary">Ver mi trabajo</button>
         </div>
       </div>
-    
+
       <router-view/>
     </div>
   </div>
