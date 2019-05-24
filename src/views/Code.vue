@@ -1,25 +1,16 @@
 <template>
   <div class="code">
-    <div class="container-fluid py-5">
-      <div class="row">
-        <div class="col-4">
-          <h1 class="text-right font-size-xxxxl">
-            <span class="d-block">Code</span>
-          </h1>
-          <CodeComponent miniData="You can take data of here"></CodeComponent>
-        </div>
-      </div>
-    </div>
+    <MarkupChallenge miniData="This is data passed of my component"></MarkupChallenge>
   </div>
 </template>
 
 <script>
-  import CodeComponent from '@/components/code/code';
+  import MarkupChallenge from '@/components/code/MarkupChallenge';
 
   export default {
     name: 'code',
     components: {
-      CodeComponent
+      MarkupChallenge
     }
   }
 
