@@ -3,13 +3,11 @@
     <div class="main-content container-fluid" style="height: 100vh;background-color: #13E4A0;">
 
       <div class="d-flex align-items-center py-3 px-5 lc-navbar">
-        <a class="ml-3 mr-auto" href="/">
-          <img alt="Vue logo" height="60px" src="http://milometaute.com/wp-content/uploads/2018/06/logo-milometaute-02.png">
-        </a>
+        <img alt="Vue logo" class="ml-3 mr-auto" height="60px" src="http://milometaute.com/wp-content/uploads/2018/06/logo-milometaute-02.png">
         <div id="nav">
           <router-link to="/about">About</router-link> |
           <router-link to="/">Work</router-link> |
-          <router-link to="#">Articles</router-link>
+          <router-link to="/about">Articles</router-link>
         </div>
       </div>
 
