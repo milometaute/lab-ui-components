@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import MarkupChallenge from '@/components/code/MarkupChallenge';
+  import MarkupChallenge from '@/components/markup_challenge/MarkupChallenge';
 
   export default {
     name: 'code',
